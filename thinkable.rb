@@ -1,6 +1,6 @@
 module Thinkable
   
- #attr_accessor :hobby
+  #attr_accessor :hobby
   
   #def initialize(hobby)
     #self.hobby = hobby

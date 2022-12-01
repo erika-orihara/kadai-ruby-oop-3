@@ -2,11 +2,10 @@ require './animal'
 require './thinkable'
 
 
+class Human < Animal #Animalクラスを継承
 
-class Human < Animal　#Animalクラスを継承
 
-
-  include Thinkable　
+  include Thinkable
 
   attr_accessor :name, :age, :hobby
 
