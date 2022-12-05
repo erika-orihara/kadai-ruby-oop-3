@@ -7,7 +7,7 @@ class Human < Animal #Animalクラスを継承
 
   include Thinkable
 
-  attr_accessor :name, :age, :hobby
+  attr_accessor :hobby
 
   def initialize(name, age, hobby)
     self.name = name
